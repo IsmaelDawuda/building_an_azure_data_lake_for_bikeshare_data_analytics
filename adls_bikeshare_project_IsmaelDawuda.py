@@ -7,6 +7,16 @@ from pyspark.sql import DataFrame
 
 # COMMAND ----------
 
+!pip install jupytext
+
+
+# COMMAND ----------
+
+!jupytext --to notebook adls_bikeshare_project_IsmaelDawuda.py
+
+
+# COMMAND ----------
+
 spark = SparkSession.builder.appName("bikeshare").getOrCreate()
 
 # COMMAND ----------
