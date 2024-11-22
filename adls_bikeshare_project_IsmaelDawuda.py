@@ -7,19 +7,6 @@ from pyspark.sql import DataFrame
 
 # COMMAND ----------
 
-
-
-# Convert Python script to Jupyter notebook
-!jupytext --to notebook /Workspace/Users/thomasbilintoh@yahoo.com/building_an_azure_data_lake_for_bikeshare_data_analytics/adls_bikeshare_project_IsmaelDawuda/adls_bikeshare_project_IsmaelDawuda.py
-
-
-# COMMAND ----------
-
-
-
-
-# COMMAND ----------
-
 spark = SparkSession.builder.appName("bikeshare").getOrCreate()
 
 # COMMAND ----------
